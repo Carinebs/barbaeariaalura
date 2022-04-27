@@ -1,11 +1,12 @@
-body{
+.principal{
     background-color: rgb(154, 152, 152);
+    padding: 30px;
     }
+.titlo_principal{
+    padding-left: 20px;
+}
 #banner{
     width: 100%;
-}
-h1{
-    text-align: center;
 }
 p{
     text-align: center;  
@@ -15,4 +16,23 @@ p{
 }
 em strong{
     color: red;
+}
+.itens{
+    font-style: italic;
+}
+.beneficios{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.titulo_centro{
+    text-align: center;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imgbeneficios{
+    width: 50%;
 }
